@@ -39,18 +39,18 @@ It is designed for a fictional platform "BrightBots", inspired by Kidrove-style 
 
 ## 📂 Project Structure
 
-- **app/** – Main application pages, layouts, and global styling.
-- **components/** – Reusable React components used across the website.
-- **components/ui/** – Shared UI elements such as buttons.
-- **lib/** – Utility/helper functions.
-- **public/** – Static assets like images and icons.
-- **server/** – Backend server files and API-related code.
-- **globals.css** – Global styling configuration.
-- **page.tsx** – Main landing page entry point.
-- **layout.tsx** – Root layout for the application.
-- **package.json** – Project dependencies and scripts.
-- **next.config.mjs** – Next.js configuration.
-- **tsconfig.json** – TypeScript configuration.
+project_/
+├── app/ # Next.js pages and layout
+├── components/ # UI components (Hero, Form, FAQ, etc.)
+├── components/ui/ # Reusable UI elements
+├── lib/ # Utility functions
+├── public/ # Static assets (images, icons)
+├── server/ # Express backend API
+│ └── index.js
+├── .env.local
+├── next.config.mjs
+├── package.json
+└── tsconfig.json
 
 └── tsconfig.json
 ```
