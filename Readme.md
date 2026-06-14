@@ -52,5 +52,18 @@ project_/
 ├── package.json
 └── tsconfig.json
 
+---
+
+## 🚀 How to Run Locally
+
+### Frontend
+```bash
+npm install
+npm run dev
+
+###Backend 
+cd server
+node index.js
+
 └── tsconfig.json
 ```
